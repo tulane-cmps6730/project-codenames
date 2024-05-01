@@ -9,7 +9,7 @@ The goal of this project was to automate the role fo the spymaster in the popula
 
 
 ### Experimentation
-INitially we experimented with using pre trained transformers from the hugging face library, as well as tried using the knowledge graph ConceptNet. Eventually we settled to use pretrained word2vec models from the gensim library. And were able to generate better clues with the help from synsets from the NLTK wordnet library. 
+Initially we experimented with using pre trained transformers from the hugging face library, as well as tried using the knowledge graph ConceptNet. Eventually we settled to use pretrained word2vec models from the gensim library. And were able to generate better clues with the help from synsets from the NLTK wordnet library. 
 
 ### Results
 As we can see from our plots and the clues outputted. Our clues arent as good as they should be. We think this is either because of the dataset we used or because of the board randomization. With some boared randomization s we are able to achieve good results but with others we recieve clues that are not too helpful. 
